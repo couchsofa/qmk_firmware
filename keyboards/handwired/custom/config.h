@@ -9,7 +9,10 @@
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    couchsofa
 #define PRODUCT         CUSTOM
-#define DESCRIPTION     Custom handwired keyboard
+#define DESCRIPTION     custom handwired keyboard
+
+/* force NKRO */
+#define FORCE_NKRO
 
 /* key matrix size */
 #define MATRIX_ROWS 6
@@ -26,7 +29,7 @@
  *
 */
 #define MATRIX_ROW_PINS { B6, B5, B4, B3, B2, B1 }
-#define MATRIX_COL_PINS { C3, C2, C1, C0, E1, E0, D7, D6, D5, D4, D3, D2, D1, D0, B7 }
+#define MATRIX_COL_PINS { C3, C2, C1, C0, E1, E0, D7, C4, D5, D4, D3, D2, D1, D0, B7 }
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
