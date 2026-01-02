@@ -22,7 +22,7 @@
         "pins": ["B14"]
     },
     "dynamic_keymap": {
-        "layer_count": 4
+        "layer_count": 6
     },
     "eeprom": {
         "wear_leveling": {
