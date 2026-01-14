@@ -69,9 +69,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* Setup windows for language switching:
  * Setttings -> Time & langaue -> Typing -> Advanced -> Input language hotkeys
- * EN LAlt + Shift + 0
- * DE LAlt + Shift + 1
- * GR LAlt + Shift + 2
+ * EN (US) LAlt + Shift + 0
+ * DE      LAlt + Shift + 1
+ * GR      LAlt + Shift + 2
  *
  * English should be the default language matching the keyboard layout.
  */
